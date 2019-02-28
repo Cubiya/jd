@@ -7,6 +7,8 @@ import 'mint-ui/lib/style.css'
 Vue.use(MintUI)
 
 Vue.config.productionTip = false
+import './lib/dist/css/mui.css'
+import './lib/dist/css/icons-extra.css'
 
 new Vue({
   router,
